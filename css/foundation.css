@@ -27,6 +27,10 @@ h1 {
   margin: 0.67em 0;
 }
 
+#about_me_text {
+
+}
+
 hr {
   -webkit-box-sizing: content-box;
           box-sizing: content-box;
@@ -35,7 +39,8 @@ hr {
 }
 
 hr.solid {
-  border-top: 3px solid purple;
+  border-top: 3px solid aqua;
+  width: 50;
 }
 
 pre {
@@ -86,7 +91,14 @@ sup {
 }
 
 img {
-  border-style: none;
+ border-style: none;
+}
+
+.my_picture {
+  border-style: solid;
+  border-color: #14679e;
+  border-width: 5px;
+  margin: 3rem;
 }
 
 button,
