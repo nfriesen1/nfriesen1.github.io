@@ -43,6 +43,10 @@ hr.solid {
   width: 50;
 }
 
+.intro {
+  margin: 0.5rem;
+}
+
 pre {
   font-family: monospace, monospace;
   font-size: 1em;
@@ -98,7 +102,7 @@ img {
   border-style: solid;
   border-color: #14679e;
   border-width: 5px;
-  margin: 3rem;
+  margin: 1rem;
 }
 
 button,
