@@ -39,8 +39,9 @@ hr {
 }
 
 hr.solid {
-  border-top: 3px solid aqua;
-  width: 50;
+  border-top: 3px solid #14679e;
+  width: 70%;
+  margin: 0, auto;
 }
 
 .intro {
