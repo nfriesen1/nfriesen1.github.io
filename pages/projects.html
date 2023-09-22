@@ -7,33 +7,31 @@
     <link rel="stylesheet" href="../css/foundation.css" />
   </head>
   <body>
-    <div class="show-for-medium">
-      <div class="top-bar">
-        <div class="top-bar-left">
-          <ul class="dropdown menu" data-dropdown-menu>
-            <li class="menu-text">Noah Friesen</li>
-            <li>
-              <a href="../index.html">Home</a>
-            </li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="resume.html">Resume</a></li>
-            <li><a href="fun.html">Fun</a></li>
-          </ul>
-        </div>
+    <div class="top-bar">
+      <div class="top-bar-left">
+        <ul class="dropdown menu" data-dropdown-menu>
+          <li class="menu-text">Noah Friesen</li>
+          <li>
+            <a href="../index.html">Home</a>
+          </li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="fun.html">Fun</a></li>
+        </ul>
       </div>
     </div>
-    <h2>Projects</h2>
-    <hr class="solid" style="margin-right: 45rem" />
-    <div class="grid-x grid-margin-x">
-      <div class="large-4">
+    <h2 class="intro">Projects</h2>
+    <ul>
+    <li class="grid-x grid-margin-x" id="project_box">
+      <div class="large-3">
         <img
           src="../Writing Image.jpg"
           alt="Lego mindstorms robot drawing letters"
           class="my_picture"
         />
       </div>
-      <div class="large-4">
-        <p>
+      <div class="large-9">
+        <p class="project_text">
           This image is of the final product in a project from CISC 480: AI and
           Robotics. We used a Lego Mindstorm robot and a python program to
           control the robot to draw various letters. For final test, we were
@@ -41,38 +39,41 @@
           fun project to work on!
         </p>
       </div>
-      <div class="large-4">
-        <br />
-      </div>
     </div>
-    <div class="grid-x grid-margin-x">
-      <div class="large-4">
+    <li class="grid-x grid-margin-x"  id="project_box">
+      <div class="large-2">
         <img
           src="../project2_img.jpg"
           alt="Picture of neural network model tracking stock prices"
           class="my_picture"
         />
       </div>
-      <div class="large-4">
-        <p>
+      <div class="large-10">
+        <p class="project_text">
           This image is from my final project in STAT 400: Data Mining and
           Machine Learning. It is a visualiztion of a neural network model we
           found when trying to predict stock prices. We used five companies,
           Google, Meta, Amazon, Microsoft, and Apple and the data from the last
           5 years of their opening and closing prices. Although our model only
           had a 57% rate to predict the right price, I was still able to learn a
-          lot of machine learning and neural networks.
+          lot about machine learning and neural networks.
         </p>
-      </div>
-      <div class="large-4">
-        <br />
       </div>
     </div>
 
-    <div class="grid-x grid-margin-x">
+    <li class="grid-x grid-margin-x">
+      <div class="large-2">
+        <br />
+      </div>
+      <div class="large-4">
+        
+      </div>
       <div class="large-4"></div>
-      <div class="large-4"></div>
+      <div class="large-2">
+        <br />
+      </div>
     </div>
+  </ul>
 
     <!-- include before closing <body> tag -->
     <script src="js/vendor/jquery.js"></script>

@@ -27,10 +27,6 @@ h1 {
   margin: 0.67em 0;
 }
 
-#about_me_text {
-
-}
-
 hr {
   -webkit-box-sizing: content-box;
           box-sizing: content-box;
@@ -40,13 +36,27 @@ hr {
 
 hr.solid {
   border-top: 3px solid #14679e;
-  width: 70%;
   margin: 0, auto;
 }
 
 .intro {
-  margin: 0.5rem;
+  margin-top: 0.5rem;
+  margin: auto;
 }
+
+#project_box{
+  padding: 2%;
+  margin-top:3%;
+  background-color: lightblue;
+}
+
+p.project_text {
+  padding: 2%;
+  background-color: lightgray;
+  border-style: solid;
+  border-color: black;
+  border-width: 5px;  
+} 
 
 pre {
   font-family: monospace, monospace;
@@ -102,8 +112,7 @@ img {
 .my_picture {
   border-style: solid;
   border-color: #14679e;
-  border-width: 5px;
-  margin: 1rem;
+  border-width: 5px;  
 }
 
 button,
