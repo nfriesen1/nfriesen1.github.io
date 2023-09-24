@@ -40,8 +40,7 @@ hr.solid {
 }
 
 .intro {
-  margin-top: 0.5rem;
-  margin: auto;
+  margin-top: 1%;
 }
 
 #project_box{
@@ -112,7 +111,16 @@ img {
 .my_picture {
   border-style: solid;
   border-color: #14679e;
-  border-width: 5px;  
+  border-width: 5px;
+  margin-top: 1%;  
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italics {
+  font-style: italic;
 }
 
 button,
