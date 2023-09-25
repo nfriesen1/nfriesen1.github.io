@@ -49,7 +49,7 @@ hr.solid {
   background-color: lightblue;
 }
 
-p.project_text {
+.project_text {
   padding: 2%;
   background-color: lightgray;
   border-style: solid;
